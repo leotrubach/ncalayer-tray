@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ncalayer-tray"
+version = "0.1.0"
+description = ""
+authors = ["Leo Trubach <leotrubach@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyGObject = "^3.42.2"
+websockets = "^10.3"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+tray = 'ncalayer_tray.main:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
