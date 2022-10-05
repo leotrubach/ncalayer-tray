@@ -1,17 +1,15 @@
 import asyncio
 import datetime
 import json
-import pathlib
-import ssl
-
-
-from datetime import timezone
-import websockets
 
 import gi
+import ssl
+import websockets
+
 
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
+
 
 SETTINGS_CMD = "showSettings"
 MODULES_CMD = "showBundleManager"
